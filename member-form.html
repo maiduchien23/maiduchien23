@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Member Register</legend>
+        <span class="error-msg" id="total-msg"></span>
+        <form id="member-form" name="member">
+            <div class="form-group">
+                <label>Tài Khoản</label>
+                <input type="text" name="username"
+                    class="form-control normal-input"
+                    placeholder="Thông tin tài khoản">
+                <span class="eror-msg"></span>    
+            </div>
+            <div class="from-group">
+                <label>Mật Khẩu</label>
+                <input type="password" name="password" class="form-control">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label>Nhắc lại mật khẩu</label>
+                <input type="password" name="re-password" class="form-control">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label>Họ và tên</label>
+                <input type="text" name="fullName" class="form-control normal-input">
+                <span class="error-msg"></span>
+            </div>    
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control">
+                <span class="error-msg"></span>
+            </div>    
+            <div class="form-group">
+                <label>Ngày Sinh</label>
+                <input type="date" name="birthDay" class="form-control">
+                <span class="error-msg"></span>
+            </div>    
+            <div class="form-group">
+                <label>Giới tính</label>
+                <label><input type="radio" name="gender" value="1"
+                    class="form-control" checked> Nam</label>
+                <label><input type="radio" name="gender" value="0"
+                    class="form-control"> Nữ </label>
+            </div>    
+            <div class="form-group">
+                <label>&nbsp;</label>
+                <input type="button" name="submit" value="Đăng Ký"
+                    class="form-control" id="btnSubmit">
+                <input type="reset" name="reset" name="reset" value="Làm lại" class="form-control">
+            </div>
+        </form>
+    </fieldset>
+    <script type="text/javascript" src="js/member.js"></script>
+</body>
+</html>

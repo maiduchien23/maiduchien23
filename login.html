@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Member login</legend>
+        <span class="error-msg" id="total-msg"></span>
+        <form id="login-form" name="login-from">
+            <div class="form-group">
+                <label>Tài Khoản</label>
+                <input type="text" name="username"
+                class="form-control short-input">
+                <span class="error-msg"></span>
+            </div>
+            <div class="from-group">
+                <label>Mật Khẩu</label>
+                <input type="password" name="password" class="form-control short-input">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label>&nbsp;</label>
+                <input type="button" name="submit" value="Đăng Nhập"
+                class="from-control" id="btnSubmit">
+                <input type="reset" name="reset" value="Làm Lại" class="form-control">
+            
+            </div>
+        </form>
+    </fieldset>
+    <script type="text/javascript" src="js/login.js"></script>
+    
+</body>
+</html>
